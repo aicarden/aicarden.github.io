@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" font-family="Consolas, 'Courier New', monospace">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d4af37"/></marker>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#d4af37" stroke-opacity="0.06" stroke-width="1"/></pattern></defs>
+<rect width="1920" height="1080" fill="#000"/><rect width="1920" height="1080" fill="url(#grid)"/>
+<rect x="110" y="360" width="170" height="230" rx="6" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M135 385 V565" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-opacity="0.6"/>
+<path d="M159 385 V565" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-opacity="0.6"/>
+<path d="M183 385 V565" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-opacity="0.6"/>
+<path d="M207 385 V565" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-opacity="0.6"/>
+<path d="M231 385 V565" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-opacity="0.6"/>
+<path d="M255 385 V565" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-opacity="0.6"/>
+<text x="195" y="640" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">E-101</text>
+<text x="195" y="658" font-size="12" fill="#f0d78c" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">PEM ELECTROLYZER</text>
+<path d="M0 520 H108" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<text x="40" y="505" font-size="13" fill="#f0d78c" fill-opacity="0.9" text-anchor="start" letter-spacing="1">H2O</text>
+<path d="M195 358 V250 H40" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<text x="60" y="240" font-size="12" fill="#f0d78c" fill-opacity="0.7" text-anchor="start" letter-spacing="1">O2 VENT</text>
+<path d="M130 237 L145 250 L130 263 L115 250 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="130" y="254" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">2</text>
+<path d="M250 610 l-10 12 h10 l-10 14" fill="none" stroke="#d4af37" stroke-width="2"/>
+<text x="266" y="630" font-size="11" fill="#f0d78c" fill-opacity="0.6" text-anchor="start" letter-spacing="1">DC</text>
+<text x="115" y="560" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1"></text>
+<path d="M282 470 H386" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M330 457 L345 470 L330 483 L315 470 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="330" y="474" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">3</text>
+<text x="330" y="450" font-size="13" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">H2</text>
+<path d="M386 430 L454 450 L454 490 L386 510 Z" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M420 440 V420" fill="none" stroke="#d4af37" stroke-width="2.6"/><circle cx="420" cy="406" r="14" fill="none" stroke="#d4af37" stroke-width="2.6"/><text x="420" y="411" font-size="13" fill="#f0d78c" text-anchor="middle">M</text>
+<text x="420" y="534" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">K-101</text>
+<path d="M0 800 H386" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<text x="40" y="785" font-size="13" fill="#f0d78c" fill-opacity="0.9" text-anchor="start" letter-spacing="1">CO2 CAPTURE</text>
+<path d="M250 787 L265 800 L250 813 L235 800 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="250" y="804" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">4</text>
+<path d="M386 760 L454 780 L454 820 L386 840 Z" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M420 770 V750" fill="none" stroke="#d4af37" stroke-width="2.6"/><circle cx="420" cy="736" r="14" fill="none" stroke="#d4af37" stroke-width="2.6"/><text x="420" y="741" font-size="13" fill="#f0d78c" text-anchor="middle">M</text>
+<text x="420" y="864" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">K-102</text>
+<path d="M454 470 H560 V588" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M454 800 H560 V612" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<circle cx="560" cy="600" r="12" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="530" y="640" font-size="12" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">M-101</text>
+<path d="M572 600 H668" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<circle cx="700" cy="600" r="30" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M670 600 l12 0 l8 -16 l10 32 l10 -32 l8 16 l12 0" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="700" y="652" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">E-102</text>
+<path d="M730 600 H800 V720 H858" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M800 647 L815 660 L800 673 L785 660 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="800" y="664" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">5</text>
+<path d="M860 420.0 A60.0 60.0 0 0 1 980 420.0 V740.0 A60.0 60.0 0 0 1 860 740.0 Z" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="846" y="580.0" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="end" letter-spacing="1"></text>
+<text x="845" y="400" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="end" letter-spacing="1">R-101</text>
+<text x="845" y="418" font-size="12" fill="#f0d78c" fill-opacity="0.6" text-anchor="end" letter-spacing="1">METHANOL REACTOR</text>
+<path d="M860 470 H980" fill="none" stroke="#d4af37" stroke-width="1.6" stroke-dasharray="4 5"/>
+<path d="M860 690 H980" fill="none" stroke="#d4af37" stroke-width="1.6" stroke-dasharray="4 5"/>
+<circle cx="875.0" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="875.0" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="875.0" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="875.0" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="875.0" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="886.5" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="886.5" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="886.5" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="886.5" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="886.5" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="898.0" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="898.0" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="898.0" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="898.0" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="898.0" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="909.5" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="909.5" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="909.5" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="909.5" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="909.5" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="921.0" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="921.0" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="921.0" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="921.0" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="921.0" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="932.5" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="932.5" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="932.5" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="932.5" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="932.5" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="944.0" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="944.0" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="944.0" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="944.0" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="944.0" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="955.5" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="955.5" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="955.5" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="955.5" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="955.5" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="967.0" cy="490" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="967.0" cy="530" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="967.0" cy="570" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="967.0" cy="610" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<circle cx="967.0" cy="650" r="3" fill="#d4af37" fill-opacity="0.45"/>
+<text x="920" y="590" font-size="12" fill="#f0d78c" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">Cu/ZnO</text>
+<path d="M920 358 V300 H1080 V568" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1000 287 L1015 300 L1000 313 L985 300 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="1000" y="304" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">6</text>
+<circle cx="1080" cy="600" r="30" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M1050 600 l12 0 l8 -16 l10 32 l10 -32 l8 16 l12 0" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="1080" y="652" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">E-103</text>
+<text x="1135" y="605" font-size="11" fill="#f0d78c" fill-opacity="0.6" text-anchor="start" letter-spacing="1">CW</text>
+<path d="M1080 630 V700 H1188" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1190 610.0 A50.0 50.0 0 0 1 1290 610.0 V770.0 A50.0 50.0 0 0 1 1190 770.0 Z" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="1304" y="690.0" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="start" letter-spacing="1">V-101</text>
+<text x="1304" y="708.0" font-size="12" fill="#f0d78c" fill-opacity="0.6" text-anchor="start" letter-spacing="1">FLASH</text>
+<path d="M1200 720 H1280" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-dasharray="6 6"/>
+<path d="M1240 558 V150 H1016" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1014 110 L946 130 L946 170 L1014 190 Z" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M980 120 V100" fill="none" stroke="#d4af37" stroke-width="2.6"/><circle cx="980" cy="86" r="14" fill="none" stroke="#d4af37" stroke-width="2.6"/><text x="980" y="91" font-size="13" fill="#f0d78c" text-anchor="middle">M</text>
+<text x="980" y="214" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">K-103</text>
+<text x="980" y="232" font-size="12" fill="#f0d78c" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">RECYCLE</text>
+<path d="M944 150 H560 V586" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)" stroke-dasharray="10 8"/>
+<path d="M760 137 L775 150 L760 163 L745 150 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="760" y="154" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">7</text>
+<path d="M1240 150 V90 H1400" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1316 78 L1316 102 L1344 78 L1344 102 Z" fill="#000" stroke="#d4af37" stroke-width="2"/>
+<text x="1410" y="85" font-size="12" fill="#f0d78c" fill-opacity="0.7" text-anchor="start" letter-spacing="1">PURGE</text>
+<path d="M1240 105 L1255 118 L1240 131 L1225 118 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="1240" y="122" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">8</text>
+<path d="M1240 822 V900 H1420 V640 H1478" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1316 888 L1316 912 L1344 888 L1344 912 Z" fill="#000" stroke="#d4af37" stroke-width="2"/>
+<path d="M1420 767 L1435 780 L1420 793 L1405 780 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="1420" y="784" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">9</text>
+<path d="M1480 275.0 A55.0 55.0 0 0 1 1590 275.0 V865.0 A55.0 55.0 0 0 1 1480 865.0 Z" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="1466" y="570.0" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="end" letter-spacing="1">T-101</text>
+<text x="1466" y="588.0" font-size="12" fill="#f0d78c" fill-opacity="0.6" text-anchor="end" letter-spacing="1">DISTILLATION</text>
+<path d="M1480 310 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1508 352 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1480 394 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1508 436 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1480 478 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1508 520 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1480 562 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1508 604 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1480 646 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1508 688 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1480 730 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1508 772 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1480 814 h82" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1535.0 218 V140 H1680 V168" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<circle cx="1680" cy="200" r="30" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M1650 200 l12 0 l8 -16 l10 32 l10 -32 l8 16 l12 0" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="1680" y="252" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">E-104</text>
+<path d="M1680 230 V280 H1748" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<rect x="1750" y="255" width="130" height="62" rx="31" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="1815" y="243" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">V-102</text>
+<path d="M1815 319 V380" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<circle cx="1815" cy="404" r="24" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M1815 380 H1849" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M1799 422 L1791 438 H1839 L1831 422" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="1849" y="424" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="start" letter-spacing="1">P-101</text>
+<path d="M1849 380 H1920" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<text x="1912" y="360" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="end" letter-spacing="1">METHANOL</text>
+<path d="M1880 367 L1895 380 L1880 393 L1865 380 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="1880" y="384" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">10</text>
+<path d="M1815 428 V470 H1592" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)" stroke-dasharray="10 8"/>
+<text x="1700" y="462" font-size="12" fill="#f0d78c" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">REFLUX</text>
+<path d="M1535.0 922 V980 H1650" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<circle cx="1680" cy="980" r="30" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<path d="M1650 980 l12 0 l8 -16 l10 32 l10 -32 l8 16 l12 0" fill="none" stroke="#d4af37" stroke-width="2.6"/>
+<text x="1680" y="1032" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">E-105</text>
+<text x="1720" y="985" font-size="11" fill="#f0d78c" fill-opacity="0.6" text-anchor="start" letter-spacing="1">LP STEAM</text>
+<path d="M1680 950 V860 H1592" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1710 1010 V1050 H1920" fill="none" stroke="#d4af37" stroke-width="2" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<text x="1905" y="1040" font-size="13" fill="#f0d78c" fill-opacity="0.9" text-anchor="end" letter-spacing="1">WATER</text>
+<path d="M1800 1037 L1815 1050 L1800 1063 L1785 1050 Z" fill="#000" stroke="#d4af37" stroke-width="1.5"/>
+<text x="1800" y="1054" font-size="11" fill="#f0d78c" fill-opacity="0.9" text-anchor="middle" letter-spacing="1">11</text>
+<rect x="20" y="960" width="430" height="100" fill="#000" stroke="#d4af37" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M20 995 H450 M20 1028 H450 M300 995 V1060" stroke="#d4af37" stroke-width="1" stroke-opacity="0.5"/>
+<text x="35" y="985" font-size="14" fill="#f0d78c" fill-opacity="0.9" text-anchor="start" letter-spacing="1">PROCESS FLOW DIAGRAM</text>
+<text x="35" y="1018" font-size="12" fill="#f0d78c" fill-opacity="0.7" text-anchor="start" letter-spacing="1">GREEN METHANOL FROM H2 + CO2</text>
+<text x="35" y="1050" font-size="12" fill="#f0d78c" fill-opacity="0.7" text-anchor="start" letter-spacing="1">A. I. CARDENAS</text>
+<text x="375" y="1018" font-size="11" fill="#f0d78c" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">DWG PFD-001</text>
+<text x="375" y="1050" font-size="11" fill="#f0d78c" fill-opacity="0.6" text-anchor="middle" letter-spacing="1">REV 0</text>
+</svg>

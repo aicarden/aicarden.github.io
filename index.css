@@ -1310,3 +1310,272 @@ body:not(.user-is-tabbing) a:focus {
 .research-area__tag:hover {
     color: #000;
 }
+
+/* Current page in the subpage nav */
+.nav__link[aria-current="page"] {
+    color: var(--pink);
+}
+
+.nav__link[aria-current="page"]::after {
+    right: 0;
+    height: 2px;
+    background: var(--pink);
+}
+
+/* Centered button row (e.g. inside callouts) */
+.btn-row--center {
+    justify-content: center;
+}
+
+/* Spacing between publication groups */
+.pub-section {
+    margin-top: 6rem;
+}
+
+/* Placeholder notice for sections still being written */
+.draft-note {
+    border: 1px dashed var(--pink);
+    border-radius: 10px;
+    padding: 2rem 2.4rem;
+    max-width: 900px;
+    font-size: 1.6rem;
+}
+
+/* --------------------------------------- */
+/* ----- Institutions (home) ----- */
+/* --------------------------------------- */
+
+.inst__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2.4rem;
+}
+
+.inst__card {
+    display: flex;
+    flex-direction: column;
+    border: var(--border-light);
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.02);
+    transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.inst__card:hover {
+    border-color: var(--pink);
+    transform: translateY(-4px);
+}
+
+.inst__card--current {
+    border-color: rgba(212, 175, 55, 0.6);
+}
+
+/* White banner that holds the logo; logo files are pre-cropped so they fill it */
+.inst__logo {
+    height: 13rem;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem 2rem;
+}
+
+.inst__logo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.inst__mono {
+    display: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--pink);
+}
+
+.inst__logo--fallback {
+    background: rgba(212, 175, 55, 0.08);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.4);
+}
+
+.inst__logo--fallback .inst__mono {
+    display: block;
+}
+
+.inst__text {
+    padding: 2rem 2.4rem 2.4rem 2.4rem;
+}
+
+.inst__text h3 {
+    font-size: 1.8rem;
+    margin: 0.6rem 0 0.4rem 0;
+}
+
+.inst__text .edu__meta {
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+.inst__badge {
+    display: inline-block;
+    padding: 0.1rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid rgba(212, 175, 55, 0.6);
+    font-family: 'Jost', sans-serif;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.inst__badge--current {
+    background: var(--pink);
+    color: #000;
+}
+
+@media (max-width: 1100px) {
+    .inst__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 650px) {
+    .inst__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --------------------------------------- */
+/* ----- Research statement ----- */
+/* --------------------------------------- */
+
+.statement__part {
+    display: flex;
+    gap: 4rem;
+    padding: 4rem 0;
+    border-bottom: var(--border-light);
+}
+
+.statement__part:first-child {
+    padding-top: 0;
+}
+
+.statement__content {
+    flex: 1;
+    min-width: 0;
+}
+
+.statement__number {
+    font-family: 'Jost', sans-serif;
+    font-size: 6rem;
+    line-height: 1;
+    color: var(--pink);
+    opacity: 0.85;
+    flex: 0 0 8rem;
+}
+
+.statement__kicker {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--pink);
+    margin: 0 0 0.6rem 0;
+}
+
+.statement__body p {
+    font-size: 1.7rem;
+    max-width: 800px;
+}
+
+.statement__image {
+    width: 100%;
+    max-width: 900px;
+    margin: 3rem 0 2rem 0;
+}
+
+.statement__tags {
+    justify-content: flex-start;
+}
+
+@media (max-width: 700px) {
+    .statement__part {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+    .statement__number {
+        font-size: 4rem;
+        flex-basis: auto;
+    }
+}
+
+/* --------------------------------------- */
+/* ----- Projects by research line ----- */
+/* --------------------------------------- */
+
+.project-line__intro {
+    max-width: 800px;
+    font-size: 1.7rem;
+    color: var(--white-1);
+}
+
+.tag-row li.tag-row__status {
+    background: var(--pink);
+    border-color: var(--pink);
+    color: #000;
+}
+
+/* Buttons inside the subpage intro */
+.subpage-hero .btn-row {
+    margin-top: 2.4rem;
+}
+
+/* --------------------------------------- */
+/* ----- Publications with graphical abstract ----- */
+/* --------------------------------------- */
+
+.pub-list li.pub-item {
+    display: grid;
+    grid-template-columns: 22rem minmax(0, 1fr);
+    gap: 2.8rem;
+    align-items: start;
+    max-width: 1100px;
+}
+
+.pub-list {
+    max-width: 1100px;
+}
+
+.pub-item__figure {
+    margin: 0;
+}
+
+.pub-item__figure img {
+    width: 100%;
+    aspect-ratio: 20 / 13;
+    object-fit: contain;
+    border-radius: 8px;
+    border: var(--border-light);
+    background: #0b0b0b;
+}
+
+.pub-item__abstract {
+    margin: 1.4rem 0 0 0;
+    font-size: 1.5rem;
+    color: var(--white-1);
+    max-width: 100%;
+}
+
+@media (max-width: 700px) {
+    .pub-list li.pub-item {
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+    }
+
+    .pub-item__figure img {
+        max-width: 32rem;
+    }
+}

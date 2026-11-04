@@ -4,208 +4,119 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
-  <title>Research interests | Andrés I. Cárdenas</title>
+  <title>Research Interests | Andrés I. Cárdenas</title>
+  <meta name="description" content="Research interests of Andrés I. Cárdenas: process design and optimization, mathematical programming, and multi-agent process systems.">
   <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 
-  <!-- ***** Subpage Navigation Header ***** -->
+  <!-- ***** Navigation ***** -->
   <header class="header header--subpage" role="banner" id="top">
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="Research-interests.html" class="nav__link">Research interests</a></li>
+          <li class="nav__item"><a href="Research-interests.html" class="nav__link" aria-current="page">Research interests</a></li>
           <li class="nav__item"><a href="Work-experience.html" class="nav__link">Work experience</a></li>
           <li class="nav__item"><a href="Projects.html" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="publications.html" class="nav__link">Publications</a></li>
+          <li class="nav__item"><a href="Publications.html" class="nav__link">Publications</a></li>
+          <li class="nav__item"><a href="Teaching-philosophy.html" class="nav__link">Teaching philosophy</a></li>
           <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- ***** Subpage Intro ***** -->
+  <!-- ***** Intro ***** -->
   <section class="subpage-hero">
     <div class="row">
       <div class="subpage-hero__content">
-        <h1 class="subpage-hero__title">PhD Research</h1>
-        <p class="subpage-hero__text">
-          Carnegie Mellon University, Department of Chemical Engineering · Advisor: Prof. Ana I. Torres
-        </p>
+        <h1 class="subpage-hero__title">Research Interests</h1>
         <p class="subpage-hero__text" style="margin-top: 2rem;">
-          Chemical production networks are rarely owned by one decision-maker. A hydrogen producer, a methanol plant and a fuel refinery may share land, utilities and pipelines, yet each one has its own economics and its own goals. My doctoral research develops <strong>game-theoretical</strong> and <strong>reinforcement learning</strong> frameworks to design these <strong>multi-agent</strong> process systems, that account for the interests of every participant.
+          <!-- TODO: rewrite this summary in your own words. -->
+          How do we design production systems when multiple stakeholders are involved? My research builds from classical process optimization techniques and incorporates <strong>game-theoretical</strong> and <strong>reinforcement learning</strong> frameworks for <strong>multi-agent</strong> integration.
         </p>
       </div>
     </div>
   </section>
 
   <main>
-
-    <!-- ***** Research Overview ***** -->
-    <section class="research-overview">
+    <!-- Each section is a short draft. Replace the text inside <div class="statement__body"> with your own. -->
+    <section class="statement" id="statement">
       <div class="row">
-        <h2>Research Areas</h2>
-        <img
-          src="./images/research-overview.svg"
-          alt="Diagram: several agents with their own objectives interact through game theory and reinforcement learning to produce a shared process network design"
-          class="research-overview__image">
-        <div class="research-areas__grid">
-          <div class="research-area__tag">Process Systems Engineering</div>
-          <div class="research-area__tag">Game Theory</div>
-          <div class="research-area__tag">Multi-Agent Reinforcement Learning</div>
-          <div class="research-area__tag">Mathematical Optimization</div>
-          <div class="research-area__tag">Techno-Economic Analysis</div>
-          <div class="research-area__tag">Green Hydrogen &amp; Derivatives</div>
-          <div class="research-area__tag">Sustainable Aviation Fuel</div>
-        </div>
-      </div>
-    </section>
 
-    <!-- ***** Research lines ***** -->
-    <section class="work" id="work">
-      <div class="row">
-        <h2>Research Lines</h2>
-
-        <div class="work__boxes">
-
-          <div class="work__box">
-            <div class="work__number">01</div>
-            <div class="work__text work__text--wide">
-              <h3>Multi-Agent Chemical Process Design with Game Theory and Reinforcement Learning</h3>
+        <article class="statement__part">
+          <div class="statement__number">01</div>
+          <div class="statement__content">
+            <p class="statement__kicker">Foundations</p>
+            <h2>Process Design Fundamentals and Optimization</h2>
+            <div class="statement__body">
+              <!-- TODO: draft text, replace with your own -->
               <p>
-                The core of my thesis. I formulate process design as a problem with several interacting agents and combine game-theoretical models with reinforcement learning, including distributed RL for the <strong>decentralized design of chemical production networks</strong>.
+                Process design turns a minimal processing pathway into a working industrial-grade production system. Determining network topology, operating conditions, equipment sizing, and consolidating them into a flowsheet has for decades relied on engineering heuristics, conceptual design and optimization approaches. 
               </p>
-              <ul class="tag-row">
-                <li>Game theory</li>
-                <li>Distributed RL</li>
-                <li>Decentralized design</li>
-                <li>Speaker, CAPE Forum 2026</li>
-              </ul>
+
+              <p>
+                Mathematical programming and rigorous process simulation let us move from rules of thumb to a systematic search over large design spaces, including superstructures, capacity expansion and multi-period planning. I used these tools to design green hydrogen production systems and plan their capacity expansion, balancing economic and operational objectives.
+              </p>
             </div>
           </div>
+        </article>
 
-          <div class="work__box">
-            <div class="work__number">02</div>
-            <div class="work__text work__text--wide">
-              <h3>Strategic Design of CO₂-Reuse Pathways for Sustainable Aviation Fuel</h3>
+        <article class="statement__part">
+          <div class="statement__number">02</div>
+          <div class="statement__content">
+            <p class="statement__kicker">Modern tools</p>
+            <h2>Multi-agent process system networks</h2>
+            <div class="statement__body">
+              <!-- TODO: draft text, replace with your own -->
               <p>
-                A game-theoretic techno-economic analysis of producing sustainable aviation fuel from CO₂. The framework covers syngas production through <strong>gasification and reforming</strong>, followed by <strong>Fischer–Tropsch</strong> synthesis, with several decision-makers along the value chain. Joint work with Víctor Soria-Alcaide.
+                Most design methods assume a single decision-maker. Real production networks are different: a hydrogen producer, a methanol plant and a fuel refinery may share land, utilities and pipelines, yet each one has its own economics and goals. My doctoral research develops game-theoretical and reinforcement learning frameworks to design these multi-agent systems, so that the resulting designs are efficient as a whole and acceptable to every participant.
               </p>
-              <ul class="tag-row">
-                <li>Techno-economic analysis</li>
-                <li>Fischer–Tropsch</li>
-                <li>CO₂ utilization</li>
-                <li>Speaker, ESCAPE36</li>
-              </ul>
             </div>
           </div>
+        </article>
 
-          <div class="work__box">
-            <div class="work__number">03</div>
-            <div class="work__text work__text--wide">
-              <h3>Multi-Agent H₂–MeOH–NH₃ Industrial Parks</h3>
+        <article class="statement__part">
+          <div class="statement__number">03</div>
+          <div class="statement__content">
+            <p class="statement__kicker">Current focus</p>
+            <h2>Autonomous and machine-aided industrial management</h2>
+            <div class="statement__body">
+              <!-- TODO: draft text, replace with your own -->
               <p>
-                Design of industrial parks where hydrogen, methanol and ammonia producers coexist. The model optimizes economics and each participant's <strong>autonomy</strong> together, and selects the hydrogen carrier at the same time as the design.
+                In multi-agent systems, stakeholders and firms must coordinate their efforts in order to succesfully design, deploy and operate interconnected productive systems. In practice, industrial collaboration is a human-guided process with a diverse amount of challenges, such as time constraints, slow-paced agreement settling procedures, limited capacity for design space awareness and privacy concerns. 
               </p>
-              <ul class="tag-row">
-                <li>Multi-objective optimization</li>
-                <li>Hydrogen carriers</li>
-                <li>Industrial parks</li>
-              </ul>
+            </div>
+            <img
+              src="./images/research-overview.svg"
+              alt="Diagram: several agents with their own objectives interact through game theory and reinforcement learning to produce a shared process network design"
+              class="research-overview__image statement__image">
+            <div class="research-areas__grid statement__tags">
+              <div class="research-area__tag">Game Theory</div>
+              <div class="research-area__tag">Multi-Agent Reinforcement Learning</div>
+              <div class="research-area__tag">Mathematical Optimization</div>
+              <div class="research-area__tag">Techno-Economic Analysis</div>
+              <div class="research-area__tag">Green Hydrogen &amp; Derivatives</div>
+              <div class="research-area__tag">Sustainable Aviation Fuel</div>
             </div>
           </div>
-
-          <div class="work__box">
-            <div class="work__number">04</div>
-            <div class="work__text work__text--wide">
-              <h3>Foundations: Green Hydrogen Design and Capacity Expansion</h3>
-              <p>
-                Earlier work, published in <em>Industrial &amp; Engineering Chemistry Research</em>, on green hydrogen process design and capacity expansion that integrates <strong>economic</strong> and <strong>operational autonomy</strong> objectives. It is the starting point for the multi-agent view I develop in my Ph.D.
-              </p>
-              <ul class="tag-row">
-                <li>Process design</li>
-                <li>Capacity expansion</li>
-                <li>Green hydrogen</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
+        </article>
 
         <div class="highlight-callout">
           <p>
             <strong>Selected coursework at CMU:</strong> Advanced Process Systems Engineering (Prof. Ignacio Grossmann), Large-Scale Mathematical Methods (Prof. Lorenz T. Biegler), and Advanced Topics in Machine Learning and Game Theory (Prof. Fei Fang).
           </p>
-          <p style="margin-top: 3rem;">
-            Interested in the details of my work in progress? Feel free to reach out!
-          </p>
-          <a href="index.html#contact" class="btn">Contact Me</a>
+          <div class="btn-row btn-row--center">
+            <a href="Projects.html" class="btn">Projects</a>
+            <a href="Publications.html" class="btn">Publications</a>
+            <a href="index.html#contact" class="btn">Contact Me</a>
+          </div>
         </div>
+
       </div>
     </section>
-
-    <!-- ***** Publications ***** -->
-    <section class="work" id="publications">
-      <div class="row">
-        <h2>Publications, Talks &amp; Presentations</h2>
-
-        <h3>Journal Articles</h3>
-        <ul class="pub-list">
-          <li>
-            <span class="pub-list__title">Green Hydrogen Production: Process Design and Capacity Expansion Integrating Economic and Operational Autonomy Objectives</span>
-            <strong>A. I. Cárdenas</strong>, F. A. Díaz-Alvarado, A. I. Torres.
-            <em>Industrial &amp; Engineering Chemistry Research</em> 63(1) (2024) 358–370.
-            <a href="https://doi.org/10.1021/acs.iecr.3c03060" target="_blank" rel="noopener">doi:10.1021/acs.iecr.3c03060</a><br>
-            <span class="pub-list__status pub-list__status--published">Published</span>
-          </li>
-          <li>
-            <span class="pub-list__title">Spatial Suitability for Green Hydrogen and Derivatives: A GIS-AHP Framework with Export-Certification Sensitivity Applied to Chile</span>
-            <strong>A. I. Cárdenas</strong>, F. Díaz-Alvarado, et al.
-            <em>International Journal of Hydrogen Energy</em>.
-            <!-- TODO: add the DOI link here once you have it, e.g. <a href="https://doi.org/...">doi:...</a> --><br>
-            <span class="pub-list__status pub-list__status--published">Published</span>
-          </li>
-        </ul>
-
-        <h3 style="margin-top: 4rem;">Manuscripts in Preparation</h3>
-        <ul class="pub-list">
-          <li>
-            <span class="pub-list__title">Multi-Agent Chemical Process Design: Game Theory and Reinforcement Learning</span>
-            <strong>A. I. Cárdenas</strong>, A. I. Torres.<br>
-            <span class="pub-list__status">In preparation</span>
-          </li>
-          <li>
-            <span class="pub-list__title">Strategic Design of CO₂-Reuse Pathways for Sustainable Aviation Fuel: A Game-Theoretic Techno-Economic Analysis</span>
-            <strong>A. I. Cárdenas</strong>, V. Soria-Alcaide, A. I. Torres.<br>
-            <span class="pub-list__status">In preparation</span>
-          </li>
-          <li>
-            <span class="pub-list__title">Multi-Agent H₂–MeOH–NH₃ Industrial Park Design: Economic and Autonomy Optimization with Simultaneous Carrier Selection</span>
-            <strong>A. I. Cárdenas</strong>, F. Díaz-Alvarado, A. I. Torres.<br>
-            <span class="pub-list__status">In preparation</span>
-          </li>
-        </ul>
-
-        <h3 style="margin-top: 4rem;">Conference Talks &amp; Presentations</h3>
-        <ul class="pub-list">
-          <li>
-            <span class="pub-list__title">Computer-Aided Process Engineering Forum (CAPE), 2026</span>
-            Speaker: distributed reinforcement learning for the decentralized design of chemical production networks.
-          </li>
-          <li>
-            <span class="pub-list__title">European Symposium on Computer Aided Process Engineering (ESCAPE36), 2026</span>
-            Speaker: game-theoretical and mathematical optimization frameworks for multi-agent process design in the production of syngas and sustainable aviation fuel through gasification, reforming and Fischer–Tropsch technologies.
-          </li>
-          <li>
-            <span class="pub-list__title">Green Hydrogen in Academia: Bridging the Gap between the Academic and Private Sector, 2023</span>
-            Member of the <strong>winning Chilean team</strong>, which proposed process systems engineering as a core tool for planning shared infrastructure.
-          </li>
-        </ul>
-      </div>
-    </section>
-
   </main>
 
   <footer class="footer">

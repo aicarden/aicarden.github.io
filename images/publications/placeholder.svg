@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260">
+  <rect x="1" y="1" width="398" height="258" rx="10" fill="#0b0b0b" stroke="#d4af37" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="8 6"/>
+  <g fill="none" stroke="#d4af37" stroke-opacity="0.7" stroke-width="3">
+    <rect x="160" y="80" width="80" height="60" rx="6"/>
+    <circle cx="182" cy="100" r="7"/>
+    <path d="M166 134 l22-18 14 10 16-14 16 22"/>
+  </g>
+  <text x="200" y="180" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#f0e9f2" fill-opacity="0.85">Graphical abstract</text>
+  <text x="200" y="204" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#f0e9f2" fill-opacity="0.55">coming soon</text>
+</svg>

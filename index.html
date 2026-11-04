@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
-
   <title>Andrés I. Cárdenas | Portfolio</title>
-
   <meta name="description" content="Ph.D. student in Chemical Engineering at Carnegie Mellon University developing game-theoretical and reinforcement learning frameworks for chemical process design, with experience in hydrogen policy, process engineering and operations optimization.">
-  <meta name="keywords" content="Andrés Cárdenas, Process Systems Engineering, Chemical Engineering, Game Theory, Reinforcement Learning, Green Hydrogen, Sustainable Aviation Fuel, Optimization, CMU" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 
+  <!-- ***** 1. Name and short description ***** -->
   <section class="home-landing" id="top">
     <div class="row">
       <div class="home-landing__content">
         <p class="home-landing__kicker">Process Systems Engineer</p>
         <h1 class="home-landing__title">Andrés I. Cárdenas</h1>
         <p class="home-landing__subtitle">
-          Chemical Engineering Ph.D. student at Carnegie Mellon University. I design production networks with multiple decision-makers interact and stakeholders by using game theory, reinforcement learning and mathematical optimization.
+          Chemical Engineering Ph.D. student at Carnegie Mellon University. I design chemical production networks where multiple decision-makers and stakeholders interact, using game theory, reinforcement learning and mathematical optimization.
         </p>
 
         <div class="home-landing__buttons">
@@ -39,7 +36,7 @@
 
   <main role="main">
 
-    <!-- ***** About ***** -->
+    <!-- ***** 2. About me ***** -->
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
@@ -52,10 +49,10 @@
               I studied Chemical Engineering at the University of Chile (FCFM), where I finished my Bachelor's, Professional Degree and M.Sc. During my years at FCFM I specialized in the engineering fundamentals of process systems design and optimization, participating in industrial internships and projects of direct engineering relevance and application to industry.
             </p>
             <p>
-              I am now a Ph.D. student in Chemical Engineering at Carnegie Mellon University, advised by Prof. Ana I. Torres. I develop game-theoretical and reinforcement learning frameworks for systems engineering problems, with a special focus for cases where several companies or plants share infrastructure and each one pursues its own goals. Main applications of my work include the fields of renewable energies, green hydrogen and its derivatives such as methanol, ammonia and synthetic hydrocarbons produced from CO₂.
+              I am now a Ph.D. student in Chemical Engineering at Carnegie Mellon University, advised by Prof. Ana I. Torres. I develop game-theoretical and reinforcement learning frameworks for systems engineering problems, with a special focus on cases where several companies or plants share infrastructure and each one pursues its own goals. The main applications of my work are in renewable energy, green hydrogen and its derivatives such as methanol, ammonia and synthetic hydrocarbons produced from CO₂.
             </p>
             <p>
-              Before my Ph.D., I worked across public policy, heavy industry, univerisity teaching and consulting. With this expertise, I strive to develop solutions that not only depend on data or theory, but are founded on a strong engineering background.
+              Before my Ph.D., I worked across public policy, heavy industry, university teaching and consulting. With this expertise, I strive to develop solutions that not only depend on data or theory, but are founded on a strong engineering background.
             </p>
             <div class="btn-row">
               <a href="./files/Andres_Cardenas_CV.pdf" class="btn" target="_blank" rel="noopener">Resume/CV</a>
@@ -64,44 +61,96 @@
           </div>
 
           <div class="about__photo-container">
-            <!-- Replace with your own photo: save it as images/andres-photo.jpg and change the src below -->
-            <img class="about__photo" src="./images/Profile photo.jpeg" alt="Photo of Andrés Cárdenas" />
+            <img class="about__photo" src="./images/Profile%20photo.jpeg" alt="Photo of Andrés Cárdenas" />
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ***** Highlights ***** -->
-    <section class="toc" id="work">
+    <!-- ***** 3. Institutions ***** -->
+    <!-- Logos: save each one as images/institutions/<name>.png using the file names below.
+         Until a logo exists, the card shows the initials instead. -->
+    <section class="institutions" id="institutions">
+      <div class="row">
+        <h2>Institutions</h2>
+        <div class="inst__grid">
+
+          <div class="inst__card inst__card--current">
+            <div class="inst__logo">
+              <img src="./images/institutions/scott-institute.png" alt="" onerror="this.parentElement.classList.add('inst__logo--fallback'); this.remove();">
+              <span class="inst__mono" aria-hidden="true">Wilton E. Scott Institute for Energy Innovation</span>
+            </div>
+            <div class="inst__text">
+              <span class="inst__badge inst__badge--current">Current</span>
+              <h3>Carnegie Mellon University</h3>
+              <p class="edu__meta">2025 – Present</p>
+            </div>
+          </div>
+
+          <div class="inst__card inst__card--current">
+            <div class="inst__logo">
+              <img src="./images/institutions/cmu.png" alt="" onerror="this.parentElement.classList.add('inst__logo--fallback'); this.remove();">
+              <span class="inst__mono" aria-hidden="true">CMU</span>
+            </div>
+            <div class="inst__text">
+              <span class="inst__badge inst__badge--current">Current</span>
+              <h3>Carnegie Mellon University</h3>
+              <p class="edu__meta">Ph.D. in Chemical Engineering · 2024 – Present</p>
+            </div>
+          </div>
+
+          <div class="inst__card">
+            <div class="inst__logo">
+              <img src="./images/institutions/uchile.png" alt="" onerror="this.parentElement.classList.add('inst__logo--fallback'); this.remove();">
+              <span class="inst__mono" aria-hidden="true">UCh</span>
+            </div>
+            <div class="inst__text">
+              <span class="inst__badge">Past</span>
+              <h3>University of Chile</h3>
+              <p class="edu__meta">B.Sc., Professional Degree &amp; M.Sc. in Chemical Engineering · 2017 – 2023</p>
+            </div>
+          </div>
+
+          <div class="inst__card">
+            <div class="inst__logo">
+              <img src="./images/institutions/energy-center.png" alt="" onerror="this.parentElement.classList.add('inst__logo--fallback'); this.remove();">
+              <span class="inst__mono" aria-hidden="true">CE</span>
+            </div>
+            <div class="inst__text">
+              <span class="inst__badge">Past</span>
+              <h3>University of Chile Energy Center</h3>
+              <p class="edu__meta">Associated Researcher · 2023</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** 4. Recommended ***** -->
+    <section class="toc" id="recommended">
       <div class="row">
         <h2>Recommended</h2>
         <div class="toc__tiles toc__tiles--four">
 
-          <a href="phd-research.html" class="toc__tile toc__tile--text">
+          <a href="Research-interests.html" class="toc__tile toc__tile--text">
             <div class="toc__label">Research interests</div>
             <p class="toc__description">
-              Game theory and reinforcement learning for multi-agent process systems.
+              From process design and optimization to game theory and reinforcement learning for multi-agent process systems.
             </p>
           </a>
 
-          <a href="experience.html" class="toc__tile toc__tile--text">
-            <div class="toc__label">Work experience</div>
-            <p class="toc__description">
-              National energy policy research, multi-agent process systems engineering, and optimization.
-            </p>
-          </a>
-
-          <a href="projects.html" class="toc__tile toc__tile--text">
-            <div class="toc__label">Projects</div>
-            <p class="toc__description">
-              Hydrogen networks, national energy strategies for renewable penetration, eco-industrial parks, aviation fuel production, multi-agent reinforcement learning, and more.
-            </p>
-          </a>
-
-          <a href="phd-research.html#publications" class="toc__tile toc__tile--text">
+          <a href="Publications.html" class="toc__tile toc__tile--text">
             <div class="toc__label">Publications</div>
             <p class="toc__description">
-              Journal papers, pre-prints, conferences and awards.
+              Journal papers, conferences and awards.
+            </p>
+          </a>
+
+          <a href="Teaching-philosophy.html" class="toc__tile toc__tile--text">
+            <div class="toc__label">Teaching philosophy</div>
+            <p class="toc__description">
+              How I approach teaching engineering.
             </p>
           </a>
 
@@ -109,38 +158,7 @@
       </div>
     </section>
 
-    <!-- ***** Education ***** -->
-    <section class="education" id="education">
-      <div class="row">
-        <h2>Education</h2>
-        <div class="edu__grid">
-
-          <div class="edu__card">
-            <h3>Carnegie Mellon University</h3>
-            <p class="edu__meta">Ph.D. in Chemical Engineering · 2024 – Present · Pittsburgh, USA</p>
-            <p>GPA 4.0 · Advisor: Prof. Ana I. Torres</p>
-            <p>Thesis topic: Game-theoretical and reinforcement learning frameworks for process systems engineering.</p>
-          </div>
-
-          <div class="edu__card">
-            <h3>University of Chile</h3>
-            <p class="edu__meta">M.Sc. in Chemical Engineering · 2022 – 2023 · Santiago, Chile</p>
-            <p>GPA 4.0 · Valedictorian</p>
-            <p>Best Chemical Engineering Master's Thesis of the year. Focus on renewable energy, hydrogen and process systems engineering for sustainability.</p>
-          </div>
-
-          <div class="edu__card">
-            <h3>University of Chile</h3>
-            <p class="edu__meta">B.Sc. &amp; Professional Degree in Chemical Engineering · 2017 – 2023</p>
-            <p>GPA 4.0 · Valedictorian</p>
-            <p>Coursework in sustainable process optimization, renewable energy &amp; biomass systems, and advanced mass transfer.</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** Beyond the lab ***** -->
+    <!-- ***** Beyond the lab (not in the new outline; delete this section if you don't want it) ***** -->
     <section class="beyond" id="beyond">
       <div class="row">
         <h2>Beyond the Lab</h2>
@@ -167,7 +185,7 @@
       </div>
     </section>
 
-    <!-- ***** Contact ***** -->
+    <!-- ***** 5. Contact ***** -->
     <section class="contact" id="contact">
       <div class="row">
         <h2>Get in Touch</h2>
@@ -175,7 +193,10 @@
           <p>
             I'm open to research collaborations and to academic and industry roles in process systems engineering, energy and optimization, in the US and internationally. The fastest way to reach me is by email. ¡También hablo español!
           </p>
-          <a href="mailto:aicarden@andrew.cmu.edu" class="btn">aicarden@andrew.cmu.edu</a>
+          <div class="btn-row btn-row--center">
+            <a href="mailto:aicarden@andrew.cmu.edu" class="btn">aicarden@andrew.cmu.edu</a>
+            <a href="https://www.linkedin.com/in/andresicardenas" class="btn" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
         </div>
       </div>
     </section>
@@ -185,14 +206,8 @@
   <footer role="contentinfo" class="footer">
     <div class="row">
       <ul class="footer__social-links">
-        <!-- TODO: put your own profile URLs here -->
         <li class="footer__social-link-item">
-          <a href="https://github.com/aicarden" title="GitHub">
-            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/andresicardenas" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/andresicardenas" title="LinkedIn" target="_blank" rel="noopener">
             <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
           </a>
         </li>

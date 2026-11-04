@@ -5,121 +5,141 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
   <title>Projects | Andrés I. Cárdenas</title>
-  <link rel="stylesheet" href="./index.css" />
+  <meta name="description" content="Projects of Andrés I. Cárdenas: hydrogen systems, energy governance and multi-agent systems optimization.">
+  <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 
+  <!-- ***** Navigation ***** -->
   <header class="header header--subpage" role="banner" id="top">
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="phd-research.html" class="nav__link">PhD Research</a></li>
-          <li class="nav__item"><a href="experience.html" class="nav__link">Work Experience</a></li>
-          <li class="nav__item"><a href="projects.html" class="nav__link">Projects</a></li>
-          <li class="nav__item"><a href="phd-research.html#publications" class="nav__link">Publications</a></li>
+          <li class="nav__item"><a href="Research-interests.html" class="nav__link">Research interests</a></li>
+          <li class="nav__item"><a href="Work-experience.html" class="nav__link">Work experience</a></li>
+          <li class="nav__item"><a href="Projects.html" class="nav__link" aria-current="page">Projects</a></li>
+          <li class="nav__item"><a href="Publications.html" class="nav__link">Publications</a></li>
+          <li class="nav__item"><a href="Teaching-philosophy.html" class="nav__link">Teaching philosophy</a></li>
           <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <!-- ***** Intro ***** -->
   <section class="subpage-hero">
     <div class="row">
       <div class="subpage-hero__content">
         <h1 class="subpage-hero__title">Projects</h1>
         <p class="subpage-hero__text">
-          Research and industry projects spanning multi-agent process design, hydrogen systems, sustainable fuels, and operations optimization.
+          My projects, grouped by research line.
         </p>
+        <div class="btn-row">
+          <a href="#hydrogen" class="btn">Hydrogen systems</a>
+          <a href="#governance" class="btn">Energy governance</a>
+          <a href="#multi-agent" class="btn">Multi-agent systems</a>
+        </div>
       </div>
     </div>
   </section>
 
   <main>
-    <!-- ***** Research projects ***** -->
-    <section class="projects">
+    <section class="projects project-line" id="hydrogen">
       <div class="row">
-        <h2>Research Projects</h2>
-
+        <p class="statement__kicker">Research line 01</p>
+        <h2>Hydrogen Systems</h2>
+        <p class="project-line__intro">
+          Design, siting and integration of green hydrogen production and its derivatives, from single plants to industrial parks.
+        </p>
         <div class="projects__grid">
 
-          <a href="phd-research.html#work" class="project-card-link">
+          <a href="https://doi.org/10.1021/acs.iecr.3c03060" class="project-card-link" target="_blank" rel="noopener">
             <div class="project-card">
-              <h3>Distributed RL for Decentralized Process Networks</h3>
+              <h3>Green Hydrogen Design &amp; Capacity Expansion</h3>
               <p>
-                Reinforcement learning agents that each design their own part of a chemical production network, combined with game-theoretical models of how those agents interact. Core of my Ph.D. thesis; presented at CAPE Forum 2026.
+                Process design and capacity-expansion planning for green hydrogen that integrates economic and operational autonomy objectives. <em>Industrial &amp; Engineering Chemistry Research</em> (2024).
               </p>
               <ul class="tag-row">
-                <li>Multi-agent RL</li>
-                <li>Game theory</li>
-                <li>Decentralized design</li>
+                <li class="tag-row__status">Published ↗</li>
+                <li>Process design</li>
+                <li>Capacity planning</li>
               </ul>
             </div>
           </a>
 
-          <a href="phd-research.html#work" class="project-card-link">
             <div class="project-card">
-              <h3>CO₂-to-SAF: Game-Theoretic Techno-Economics</h3>
+              <h3>GIS-AHP Land Suitability for Hydrogen in Chile</h3>
               <p>
-                Strategic design of CO₂-reuse pathways for sustainable aviation fuel through gasification, reforming and Fischer–Tropsch synthesis. Presented at ESCAPE36 (2026).
+                A spatial suitability framework for green hydrogen and its derivatives that combines GIS with the Analytic Hierarchy Process and tests sensitivity to export-certification rules. <em>International Journal of Hydrogen Energy</em>.
               </p>
               <ul class="tag-row">
-                <li>TEA</li>
-                <li>Optimization</li>
-                <li>Sustainable aviation fuel</li>
+                <li class="tag-row__status">Published</li>
+                <li>GIS</li>
+                <li>Multi-criteria decision analysis</li>
+                <li>Hydrogen siting</li>
               </ul>
             </div>
-          </a>
 
-          <a href="phd-research.html#work" class="project-card-link">
             <div class="project-card">
               <h3>H₂–Methanol–Ammonia Industrial Park</h3>
               <p>
                 Multi-agent design of an industrial park that balances economics with each participant's operational autonomy, and selects the hydrogen carrier simultaneously.
               </p>
               <ul class="tag-row">
+                <li class="tag-row__status">In preparation</li>
                 <li>Multi-objective optimization</li>
                 <li>Hydrogen carriers</li>
               </ul>
             </div>
-          </a>
 
-          <a href="https://doi.org/10.1021/acs.iecr.3c03060" class="project-card-link" target="_blank" rel="noopener">
+        </div>
+      </div>
+    </section>
+
+    <section class="projects project-line" id="governance">
+      <div class="row">
+        <p class="statement__kicker">Research line 02</p>
+        <h2>Energy Governance</h2>
+        <p class="project-line__intro">
+          Public policy and decision frameworks for deploying hydrogen at national scale, developed with Chile's Ministry of Energy.
+        </p>
+        <div class="projects__grid">
+
             <div class="project-card">
-              <h3>Green Hydrogen Design &amp; Capacity Expansion</h3>
+              <h3>Green Hydrogen Action Plan 2023–2030</h3>
               <p>
-                Process design and capacity-expansion planning for green hydrogen that integrates economic and operational autonomy objectives. Published in <em>I&amp;EC Research</em> (2024).
+                <!-- TODO: describe your contribution to the Plan de Acción de Hidrógeno Verde 2023–2030 and add a link to the plan. -->Chile's Green Hydrogen Action Plan (<em>Plan de Acción de Hidrógeno Verde 2023–2030</em>), the Ministry of Energy's roadmap for developing a national green hydrogen industry.
               </p>
               <ul class="tag-row">
-                <li>Process design</li>
-                <li>Capacity planning</li>
-                <li>Published ↗</li>
+                <li>Energy policy</li>
+                <li>National strategy</li>
+              </ul>
+            </div>
+
+          <a href="Work-experience.html#academic" class="project-card-link">
+            <div class="project-card">
+              <h3>Hydrogen Strategies for Chile</h3>
+              <p>
+                Evaluation and investment framework, investment guidelines and an inter-agency decision-making framework for nationwide hydrogen deployment, developed at the University of Chile Energy Center for the Energy Ministry.
+              </p>
+              <ul class="tag-row">
+                <li>Investment frameworks</li>
+                <li>Public instruments</li>
               </ul>
             </div>
           </a>
 
-          <div class="project-card">
-            <h3>GIS-AHP Land Suitability for Hydrogen in Chile</h3>
-            <p>
-              A spatial suitability framework for green hydrogen and its derivatives that combines GIS with the Analytic Hierarchy Process and tests sensitivity to export-certification rules. Published in the <em>International Journal of Hydrogen Energy</em>.
-            </p>
-            <ul class="tag-row">
-              <li>GIS</li>
-              <li>Multi-criteria decision analysis</li>
-              <li>Hydrogen siting</li>
-            </ul>
-          </div>
-
-          <a href="experience.html#work" class="project-card-link">
+          <a href="Work-experience.html#academic" class="project-card-link">
             <div class="project-card">
-              <h3>Hydrogen Strategies for Chile</h3>
+              <h3>Green Hydrogen: Impacts and Responsibilities in Land Use</h3>
               <p>
-                Evaluation and investment framework, investment guidelines and an inter-agency decision-making framework for nationwide hydrogen deployment, developed for Chile's Energy Ministry.
+                A mathematical model that ranks land suitability for hydrogen production across Chile, together with technical, environmental and socioeconomic criteria to assess the impacts of hydrogen projects.
               </p>
               <ul class="tag-row">
-                <li>Energy policy</li>
-                <li>Investment frameworks</li>
+                <li>Land use</li>
+                <li>Impact assessment</li>
               </ul>
             </div>
           </a>
@@ -128,61 +148,41 @@
       </div>
     </section>
 
-    <!-- ***** Industry projects ***** -->
-    <section class="projects">
+    <section class="projects project-line" id="multi-agent">
       <div class="row">
-        <h2>Industry &amp; Consulting Projects</h2>
-
+        <p class="statement__kicker">Research line 03</p>
+        <h2>Multi-Agent Systems Optimization</h2>
+        <p class="project-line__intro">
+          Game theory and reinforcement learning for production networks where several decision-makers share infrastructure. Core of my Ph.D. thesis.
+        </p>
         <div class="projects__grid">
 
-          <a href="experience.html#work" class="project-card-link">
+          <a href="Research-interests.html#statement" class="project-card-link">
             <div class="project-card">
-              <h3>Predictive CaO Feed Control</h3>
+              <h3>Distributed RL for Decentralized Process Networks</h3>
               <p>
-                A predictive model for calcium oxide feed in a pulp mill's lime kiln and caustification area, built from discrete upstream measurements of concentration, temperature and flow. Celulosa Arauco, 2022.
+                Reinforcement learning agents that each design their own part of a chemical production network, combined with game-theoretical models of how those agents interact. Presented at CAPE Forum 2026.
               </p>
               <ul class="tag-row">
-                <li>Predictive modelling</li>
-                <li>Process control</li>
+                <li class="tag-row__status">In preparation</li>
+                <li>Multi-agent RL</li>
+                <li>Game theory</li>
+                <li>Decentralized design</li>
               </ul>
             </div>
           </a>
 
-          <a href="experience.html#work" class="project-card-link">
+          <a href="Research-interests.html#statement" class="project-card-link">
             <div class="project-card">
-              <h3>Batch Scheduling Software</h3>
+              <h3>CO₂-to-SAF: Game-Theoretic Techno-Economics</h3>
               <p>
-                Weekly production-scheduling optimization that reduces storage use while meeting demand. Vegusta, 2020–2021.
+                Strategic design of CO₂-reuse pathways for sustainable aviation fuel through gasification, reforming and Fischer–Tropsch synthesis, with several decision-makers along the value chain. Presented at ESCAPE36 (2026).
               </p>
               <ul class="tag-row">
-                <li>Scheduling</li>
-                <li>Optimization</li>
-              </ul>
-            </div>
-          </a>
-
-          <a href="experience.html#work" class="project-card-link">
-            <div class="project-card">
-              <h3>Refrigeration Control Optimization</h3>
-              <p>
-                An optimization problem that improves the control of an intermittent air-refrigeration unit, minimizing power consumption under time constraints. Vegusta, 2020–2021.
-              </p>
-              <ul class="tag-row">
-                <li>Control</li>
-                <li>Energy efficiency</li>
-              </ul>
-            </div>
-          </a>
-
-          <a href="experience.html#work" class="project-card-link">
-            <div class="project-card">
-              <h3>Hospital Patient Scheduling</h3>
-              <p>
-                A patient-testing scheduling model that minimizes idle time in a public-health hospital. M.O. Consultancy, 2019–2020.
-              </p>
-              <ul class="tag-row">
-                <li>Operations research</li>
-                <li>Healthcare</li>
+                <li class="tag-row__status">In preparation</li>
+                <li>Techno-economic analysis</li>
+                <li>Sustainable aviation fuel</li>
+                <li>Fischer–Tropsch</li>
               </ul>
             </div>
           </a>
